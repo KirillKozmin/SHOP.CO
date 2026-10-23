@@ -1,0 +1,27 @@
+@mixin flex-center($justify: center, $align: center) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+@mixin flex-between($align: center) {
+  display: flex;
+  justify-content: space-between;
+  align-items: $align;
+}
+
+@mixin pill($background: $color-white, $color: $color-black) {
+  border-radius: $radius-pill;
+  background-color: $background;
+  color: $color;
+}
+
+@mixin divider {
+  border: 1px solid $color-border;
+}
+
+@mixin product-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1;
+}

@@ -39,7 +39,7 @@ li {
   margin-left: 525px;
 }
 
-.Sign_Up_Now {
+.header__sign-Up {
   color: #ffffff;
   font-size: 14px;
 }
@@ -58,7 +58,7 @@ li {
   height: 48px;
 }
 
-.check__mark{
+.section__one-check_mark{
   margin-left: 3px;
 }
 
@@ -76,12 +76,12 @@ li {
   gap: 24px;
 }
 
-.search-wrapper {
+.section__one-search_wrapper {
   width: 577px;
   padding: 12px 16px;
 }
 
-.search {
+.section__one-search {
   width: 100%;
   box-sizing: border-box;
   height: 40px;
@@ -91,7 +91,7 @@ li {
   padding-left: 52px;
 }
 
-.search-icon {
+.section__one-search_icon {
   position: absolute;
   margin-left: 16px;
   margin-top: 10px;
@@ -99,7 +99,7 @@ li {
   height: 20px;
 }
 
-.main__icons {
+.section__one-main_icons {
   gap: 14px;
   width: 62px;
   height: 24px;
@@ -113,7 +113,7 @@ li {
 }
 
 .section__two-container {
-  background-image: url("../images/ktoto.svg");
+  background-image: url("/img/ktoto.svg");
   height: 663px;
   width: 1440px;
 }
@@ -140,7 +140,7 @@ li {
   width: 210px;
 }
 
-.btns-one {
+.section__two-btns_one {
   width: 210px;
   height: 52px;
   padding: 16px 54px;
@@ -246,7 +246,7 @@ li {
   height: 33.35px;
 }
 
-.section__four-container h5 {
+.section__four-heading {
   line-height: 100%;
   font-weight: 700;
   font-size: 48px;
@@ -269,7 +269,7 @@ li {
   margin-top: 16px;
 }
 
-.estimation {
+.section__four-estimation {
   width: 150px;
   height: 19px;
   display: flex;
@@ -279,14 +279,14 @@ li {
   gap: 16px;
 }
 
-.estimation p {
+.section__four-estimation p {
   font-weight: 400;
   font-size: 14px;
   line-height: 100%;
   color: #000000;
 }
 
-.price {
+.section__four-price {
   width: 200px;
   height: 32px;
   display: flex;
@@ -326,7 +326,7 @@ li {
   margin-top: 36px;
 }
 
-.btns-two {
+.section__four-btns-two {
   width: 218px;
   height: 52px;
   font-weight: 500;
@@ -353,7 +353,7 @@ li {
   margin: 80px auto;
 }
 
-.section__five-container h5 {
+.section__five-heading {
   font-weight: 700;
   font-size: 48px;
   line-height: 100%;
@@ -374,7 +374,7 @@ li {
 .container__five-img_one {
   width: 407px;
   height: 289px;
-  background-image: url(../images/Casual.svg);
+  background-image: url(/img/Casual.svg);
   border-radius: 20px;
   font-size: 36px;
   font-weight: 700;
@@ -389,7 +389,7 @@ li {
 .container__five-img_two {
   width: 664px;
   height: 289px;
-  background-image: url(../images/Formal.svg);
+  background-image: url(/img/Formal.svg);
   border-radius: 20px;
   font-size: 36px;
   font-weight: 700;
@@ -411,7 +411,7 @@ li {
 .container__five-img_three {
   width: 684px;
   height: 289px;
-  background-image: url(../images/Party.svg);
+  background-image: url(/img/Party.svg);
   border-radius: 20px;
   font-size: 36px;
   font-weight: 700;
@@ -424,7 +424,7 @@ li {
 .container__five-img_four {
   width: 407px;
   height: 289px;
-  background-image: url(../images/Gym.svg);
+  background-image: url(/img/Gym.svg);
   border-radius: 20px;
   font-size: 36px;
   font-weight: 700;
@@ -445,8 +445,8 @@ li {
   justify-content: center;
   align-items: baseline;
   gap: 16px;
-  width: 15.76px;
-  height: 18.76px;
+  width: 16px;
+  height: 19px;
 }
 
 .section__six-container {
@@ -472,7 +472,7 @@ li {
 
 .section__six-comment {
   width: 400px;
-  height: 239.58px;
+  height: 240px;
   padding: 28px 32px;
   border-radius: 20px;
   border: 1px solid #0000001A;
@@ -481,7 +481,7 @@ li {
 
 .section__six-comment_internal {
   width: 336px;
-  height: 183.58px;
+  height: 184px;
 }
 
 .section__six-comment_internal p {
@@ -522,7 +522,6 @@ li {
 
 .footer {
   height: 589px;
-  margin-top: 80px;
   display: flex;
   justify-content: center;
 }
@@ -535,7 +534,7 @@ li {
   padding: 36px 64px;
   background-color: #000000;
   border-radius: 20px;
-  margin-top: 80.42px;
+  margin-top: 80px;
 }
 
 .footer__tablet h5 {
@@ -571,8 +570,8 @@ li {
 }
 
 .footer__letter {
-  width: 20.25px;
-  height: 15.75px;
+  width: 20px;
+  height: 16px;
   position: absolute;
   margin-top: 16px;
   margin-left: 16px;
@@ -596,7 +595,7 @@ li {
   display: flex;
   justify-content: center;
   margin-top: 140px;
-  gap: 113.5px;
+  gap: 113px;
 }
 
 .footer__information {
@@ -606,7 +605,7 @@ li {
 
 .footer__information-text h5 {
   font-weight: 700;
-  font-size: 33.45px;
+  font-size: 33px;
   line-height: 100%;
   color: #000000;
 }
@@ -653,7 +652,7 @@ li {
 }
 
 .footer__end {
-  height: 30.03px;
+  height: 30px;
   display: flex;
   align-items: flex-start;
   gap: 640px;

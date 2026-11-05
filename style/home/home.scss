@@ -8,6 +8,10 @@ li {
   list-style: none;
 }
 
+body {
+  font-family: "Satoshi", sans-serif;
+}
+
 .header {
   background-color: #000000;
   height: 38px;
@@ -32,8 +36,8 @@ li {
     display: flex;
     align-items: center;
     color: #ffffff;
-    width: 13.13px;
-    height: 13.13px;
+    width: 14px;
+    height: 14px;
     text-decoration: none;
     margin-left: 525px;
   }
@@ -62,7 +66,7 @@ li {
 
     a {
       text-decoration: none;
-      color: $color-black;
+      color: #000000;
     }
 
     ul {
@@ -118,19 +122,22 @@ li {
   }
 
   &-heading {
-    width: 630px;
     height: 342px;
-    font-size: 64px;
     color: #000000;
     padding-left: 100px;
     padding-top: 103px;
+    font-family: "Integral CF Regular", sans-serif;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 64px;
   }
 
   &-text {
-    font-size: 16px;
     color: #00000099;
     padding-left: 100px;
-    width: 630px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
   }
 
   &-btns {
@@ -162,10 +169,13 @@ li {
 
   &-informatics-one {
     p {
-      width: 141px;
+      width: 145px;
       height: 22px;
       font-size: 16px;
       color: #00000099;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px;
     }
 
     h3 {
@@ -198,10 +208,12 @@ li {
     }
 
     p {
-      width: 126px;
       height: 22px;
       font-size: 16px;
       color: #00000099;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px;
     }
   }
 
@@ -255,11 +267,12 @@ li {
 .section__four {
   &-heading {
     line-height: 100%;
-    font-weight: 700;
+    font-weight: 800;
     font-size: 48px;
     margin-top: 72px;
     display: flex;
     justify-content: center;
+    font-family: "Integral CF", sans-serif
   }
 
   &-card {
@@ -361,12 +374,13 @@ li {
   margin: 80px auto;
 
   &-heading {
-    font-weight: 700;
+    font-weight: 800;
     font-size: 48px;
     line-height: 100%;
     display: flex;
     justify-content: center;
     padding-top: 70px;
+    font-family: "Integral CF", sans-serif
   }
 
   &-img_one-two {
@@ -486,11 +500,6 @@ li {
     border-radius: 20px;
     border: 1px solid #0000001a;
     gap: 342px;
-
-    img {
-      width: 24px;
-      height: 24px;
-    }
   }
 
   &-comment_internal {
@@ -549,7 +558,7 @@ li {
       width: 551px;
       height: 94px;
       color: #ffffff;
-      font-weight: 700;
+      font-weight: 800;
       font-size: 40px;
       line-height: 45px;
     }

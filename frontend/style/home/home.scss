@@ -8,6 +8,10 @@ li {
   list-style: none;
 }
 
+button:hover{
+  cursor: pointer;
+}
+
 body {
   font-family: "Satoshi", sans-serif;
 }
@@ -15,6 +19,8 @@ body {
 .header {
   background-color: #000000;
   height: 38px;
+  display: flex;
+  justify-content: center;
 
   &__container {
     display: flex;
@@ -42,18 +48,18 @@ body {
     margin-left: 525px;
   }
 
-  &__sign-Up {
+  &__sign-up {
     color: #ffffff;
     font-size: 14px;
   }
 }
 
-.section__one {
+.navigation {
   width: 1240px;
   height: 48px;
   margin: 24px auto;
 
-  &-container {
+  &__container {
     display: flex;
     align-items: center;
     gap: 40px;
@@ -75,16 +81,16 @@ body {
     }
   }
 
-  &-check_mark {
+  &__check-mark {
     margin-left: 3px;
   }
 
-  &-search_wrapper {
+  &__search-wrapper {
     width: 577px;
     padding: 12px 16px;
   }
 
-  &-search {
+  &__search {
     width: 100%;
     box-sizing: border-box;
     height: 40px;
@@ -94,7 +100,7 @@ body {
     padding-left: 52px;
   }
 
-  &-search_icon {
+  &__search-icon {
     position: absolute;
     margin-left: 16px;
     margin-top: 10px;
@@ -102,7 +108,7 @@ body {
     height: 20px;
   }
 
-  &-main_icons {
+  &__main-icons {
     gap: 14px;
     width: 62px;
     height: 24px;
@@ -111,17 +117,19 @@ body {
   }
 }
 
-.section__two {
+.hero {
   height: 663px;
   background-color: #f2f0f1;
+  display: flex;
+  justify-content: center;
 
-  &-container {
-    background-image: url("/img/ktoto.svg");
+  &__container {
+    background-image: url("/frontend/img/ktoto.svg");
     height: 663px;
     width: 1440px;
   }
 
-  &-heading {
+  &__heading {
     height: 342px;
     color: #000000;
     padding-left: 100px;
@@ -132,7 +140,7 @@ body {
     line-height: 64px;
   }
 
-  &-text {
+  &__text {
     color: #00000099;
     padding-left: 100px;
     font-weight: 400;
@@ -140,13 +148,13 @@ body {
     line-height: 22px;
   }
 
-  &-btns {
+  &__btns {
     margin-left: 100px;
     margin-top: 32px;
     width: 210px;
   }
 
-  &-btns_one {
+  &__btns-one {
     width: 210px;
     height: 52px;
     padding: 16px 54px;
@@ -157,7 +165,7 @@ body {
     gap: 12px;
   }
 
-  &-informatics {
+  &__informatics {
     width: 640px;
     display: flex;
     align-items: center;
@@ -167,9 +175,8 @@ body {
     margin-top: 48px;
   }
 
-  &-informatics-one {
+  &__informatics-info {
     p {
-      width: 145px;
       height: 22px;
       font-size: 16px;
       color: #00000099;
@@ -185,39 +192,7 @@ body {
     }
   }
 
-  &-informatics-two {
-    h3 {
-      width: 146px;
-      height: 54px;
-      font-size: 40px;
-    }
-
-    p {
-      width: 156px;
-      height: 22px;
-      font-size: 16px;
-      color: #00000099;
-    }
-  }
-
-  &-informatics-three {
-    h3 {
-      width: 171px;
-      height: 54px;
-      font-size: 40px;
-    }
-
-    p {
-      height: 22px;
-      font-size: 16px;
-      color: #00000099;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 22px;
-    }
-  }
-
-  &-line {
+  &__line {
     width: 74px;
     height: 0px;
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -225,47 +200,22 @@ body {
   }
 }
 
-.section__three {
+.brands {
   background-color: #000000;
   height: 122px;
   display: flex;
   justify-content: center;
 
-  &-container {
+  &__container {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 106px;
   }
-
-  &-versace {
-    width: 166.48px;
-    height: 33.16;
-  }
-
-  &-zara {
-    width: 91px;
-    height: 38px;
-  }
-
-  &-gucci {
-    width: 156px;
-    height: 36px;
-  }
-
-  &-prada {
-    width: 194px;
-    height: 32px;
-  }
-
-  &-calvin-klein {
-    width: 206.79px;
-    height: 33.35px;
-  }
 }
 
-.section__four {
-  &-heading {
+.products {
+  &__heading {
     line-height: 100%;
     font-weight: 800;
     font-size: 48px;
@@ -275,21 +225,21 @@ body {
     font-family: "Integral CF", sans-serif
   }
 
-  &-card {
+  &__card {
     display: flex;
     justify-content: center;
     margin-top: 55px;
     gap: 20px;
   }
 
-  &-title {
+  &__title {
     font-size: 20px;
     font-weight: 700;
     line-height: 100%;
     margin-top: 16px;
   }
 
-  &-estimation {
+  &__estimation {
     width: 150px;
     height: 19px;
     display: flex;
@@ -306,7 +256,7 @@ body {
     }
   }
 
-  &-price {
+  &__price {
     width: 200px;
     height: 32px;
     display: flex;
@@ -317,7 +267,7 @@ body {
     margin-top: 8px;
   }
 
-  &-discount {
+  &__discount {
     width: 58px;
     height: 28px;
     font-weight: 500;
@@ -332,7 +282,7 @@ body {
     align-items: center;
   }
 
-  &-text_crossed {
+  &__text-crossed {
     text-decoration: line-through;
     color: #00000066;
     font-weight: 700;
@@ -340,13 +290,13 @@ body {
     line-height: 100%;
   }
 
-  &-btns {
+  &__btns-container {
     display: flex;
     justify-content: center;
     margin-top: 36px;
   }
 
-  &-btns-two {
+  &__btns {
     width: 218px;
     height: 52px;
     font-weight: 500;
@@ -359,21 +309,21 @@ body {
     background-color: #ffffff;
   }
 
-  &-line {
+  &__line {
     width: 1240px;
     border: 1px solid #0000001a;
     margin: 64px auto;
   }
 }
 
-.section__five {
+.dress-styles {
   width: 1239px;
   height: 866px;
   border-radius: 40px;
   background-color: #f0f0f0;
   margin: 80px auto;
 
-  &-heading {
+  &__heading {
     font-weight: 800;
     font-size: 48px;
     line-height: 100%;
@@ -383,81 +333,83 @@ body {
     font-family: "Integral CF", sans-serif
   }
 
-  &-img_one-two {
+  &__img-container {
     display: flex;
     justify-content: center;
     gap: 20px;
-    margin-top: 64px;
     margin-left: 64px;
     margin-right: 64px;
   }
 
-  &-img_one {
+  &__img-one {
     width: 407px;
     height: 289px;
-    background-image: url(/img/Casual.svg);
+    background-image: url(/frontend/img/Casual.svg);
     border-radius: 20px;
     font-size: 36px;
     font-weight: 700;
     line-height: 100%;
     padding-top: 25px;
     padding-left: 36px;
+    margin-top: 64px;
     background-size: cover;
     color: #000000;
     text-decoration: none;
   }
 
-  &-img_two {
+  &__img-two {
     width: 664px;
     height: 289px;
-    background-image: url(/img/Formal.svg);
+    background-image: url(/frontend/img/Formal.svg);
     border-radius: 20px;
     font-size: 36px;
     font-weight: 700;
     line-height: 100%;
     padding-top: 25px;
     padding-left: 36px;
+    margin-top: 64px;
     background-size: cover;
   }
 
-  &-img_three-four {
+  &__img-container {
     display: flex;
     justify-content: center;
     gap: 20px;
-    margin-top: 20px;
     margin-left: 64px;
     margin-right: 64px;
   }
 
-  &-img_three {
+  &__img-three {
     width: 684px;
     height: 289px;
-    background-image: url(/img/Party.svg);
+    background-image: url(/frontend/img/Party.svg);
     border-radius: 20px;
     font-size: 36px;
     font-weight: 700;
     line-height: 100%;
     padding-top: 25px;
     padding-left: 36px;
+    margin-top: 20px;
     background-size: cover;
   }
 
-  &-img_four {
+  &__img-four {
     width: 407px;
     height: 289px;
-    background-image: url(/img/Gym.svg);
+    background-image: url(/frontend/img/Gym.svg);
     border-radius: 20px;
     font-size: 36px;
     font-weight: 700;
     line-height: 100%;
     padding-top: 25px;
     padding-left: 36px;
+    margin-top: 20px;
     background-size: cover;
   }
 }
 
-.section__six {
-  &-heading_main {
+.testimonials {
+  &__heading-main {
     display: flex;
     justify-content: center;
     gap: 522px;
@@ -468,11 +420,10 @@ body {
       font-weight: 700;
       font-size: 48px;
       line-height: 100%;
-      letter-spacing: 0%;
     }
   }
 
-  &-arrow {
+  &__arrow {
     display: flex;
     justify-content: center;
     align-items: baseline;
@@ -481,11 +432,16 @@ body {
     height: 19px;
   }
 
-  &-container {
+  &__btns {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+  }
+
+  &__container {
     overflow-x: hidden;
   }
 
-  &-comment_main {
+  &__comment-main {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -493,7 +449,7 @@ body {
     gap: 20px;
   }
 
-  &-comment {
+  &__comment {
     width: 400px;
     height: 240px;
     padding: 28px 32px;
@@ -502,7 +458,7 @@ body {
     gap: 342px;
   }
 
-  &-comment_internal {
+  &__comment-internal {
     width: 336px;
     height: 184px;
 
@@ -517,7 +473,7 @@ body {
     }
   }
 
-  &-comment_blur {
+  &__comment-blur {
     width: 336px;
     height: 183.58;
     filter: blur(4px);
@@ -525,7 +481,7 @@ body {
     padding-left: 32px;
   }
 
-  &-heading {
+  &__heading {
     display: flex;
     align-items: center;
     gap: 4px;

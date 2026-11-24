@@ -12,4 +12,5 @@ echo ^>^>^> Ставлю зависимости...
 pip install -q -r requirements.txt
 
 echo ^>^>^> Сервер: http://localhost:8000   Документация (Swagger): http://localhost:8000/docs
-uvicorn app.main:app --reload --port 8000
+uvicorn app.main:app --reload --port 
+

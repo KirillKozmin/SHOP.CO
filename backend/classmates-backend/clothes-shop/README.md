@@ -18,7 +18,7 @@
 Когда увидите `Application startup complete` — готово:
 
 - Сервер: <http://localhost:8000>
-- **Swagger (документация, где можно нажимать кнопки): <http://localhost:8000/docs>**
+- **Swagger (документация, где можно нажимать кнопки): <http://localhost:8000/docs>** bnb 
 
 Остановить сервер: `Ctrl + C`.
 

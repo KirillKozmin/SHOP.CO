@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOP.CO</title>
+    <link rel="stylesheet" href="../style/product/product.css">
+    <script src="../js/products.js" type="module"></script>
+    <script src="../js/btn.js" type="module"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container">
+            <p class="header__start">
+                Sign up and get 20% off to your first order.<a href="#" class="header__sign-up">Sign Up Now</a>
+            </p>
+            <a class="header__cross" href="./home.html">x</a>
+        </div>
+    </header>
+    <main>
+        <section class="navigation">
+            <div class="navigation__container">
+                <a href="./home.html"><img src="../img/SHOP.CO.svg" alt="SHOP.CO"></a>
+                <nav>
+                    <ul>
+                        <li><a href="">Shop<img class="navigation__check-mark" src="../img/downward arrow.svg"></a></li>
+                        <li><a href="">On Sale</a></li>
+                        <li><a href="">New Arrivals</a></li>
+                        <li><a href="">Brands</a></li>
+                    </ul>
+                </nav>
+                <div class="navigation__search-wrapper">
+                    <img class="navigation__search-icon" src="../img/magnifier.svg">
+                    <input class="navigation__search" type="text" placeholder="Search for products...">
+                </div>
+                <div class="navigation__main-icons">
+                    <a href="./cart.html"><img src="../img/basket.svg" alt="корзина"></a>
+                    <a href="./registration.html"><img src="../img/profile.svg" alt="профиль"></a>
+                </div>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product__header">
+                <div class="product__divider">
+                    <hr class="product__divider-line">
+                    <div class="breadcrumbs">
+                        <p class="breadcrumbs__item">Home</p>
+                        <img src="../img/arrow to the right.svg" class="breadcrumbs__arrow">
+                        <p class="breadcrumbs__item">Shop</p>
+                        <img src="../img/arrow to the right.svg" class="breadcrumbs__arrow">
+                        <p class="breadcrumbs__item">Men</p>
+                        <img src="../img/arrow to the right.svg" class="breadcrumbs__arrow">
+                        <a class="breadcrumbs__item breadcrumbs__item--current" id="product-category">Product</a>
+                    </div>
+                </div>
+            </div>
+            <div class="product__content">
+                <div class="product__gallery">
+                    <div class="product__thumbnails" id="product-thumbnails"></div>
+                    <div>
+                        <img class="product__image" id="product-image" src="../img/T-SHIRT WITH TAPE DETAILS.svg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="product__info">
+                    <h2 class="product__title" id="product-title">Loading product...</h2>
+                    <div class="product__rating" id="product-rating"></div>
+                    <div class="product__prices" id="product-prices"></div>
+                    <p class="product__description" id="product-description"></p>
+                    <hr class="product__separator">
+                    <p class="product__option-title">Select Colors</p>
+                    <div class="product__colors" id="product-colors"></div>
+                    <hr class="product__separator">
+                    <p class="product__option-title">Choose Size</p>
+                    <div class="product__sizes" id="product-sizes"></div>
+                    <hr class="product__separator">
+                    <div class="product__actions">
+                        <div class="product__quantity">
+                            <button class="product__quantity-button product__quantity-minus" type="button"
+                                aria-label="Уменьшить количество">
+                                <img src="../img/minus.svg" alt="">
+                            </button>
+                            <p class="product__quantity-value" aria-live="polite">1</p>
+                            <button class="product__quantity-button product__quantity-plus" type="button"
+                                aria-label="Увеличить количество">
+                                <img src="../img/plus.svg" alt="">
+                            </button>
+                        </div>
+                        <button class="product__add-to-cart">Add to Cart</button>
+                    </div>
+                    <p class="product__message" id="product-message" role="status">Loading product...</p>
+                </div>
+        </section>
+        <section class="reviews">
+            <div class="reviews__tabs">
+                <p class="reviews__tab">Product Details</p>
+                <p class="reviews__tab reviews__tab-active">Rating & Reviews</p>
+                <p class="reviews__tab">FAQs</p>
+            </div>
+            <div class="reviews__header">
+                <div class="reviews__summary">
+                    <p class="reviews__title">All Reviews</p>
+                    <p class="reviews__count">(451)</p>
+                </div>
+                <div class="reviews__controls">
+                    <button class="reviews__filter-icon"><img src="../img/filter.svg" alt=""></button>
+                    <button class="reviews__sort">Latest <img src="../img/downward arrow.svg"></button>
+                    <button class="reviews__write-button">Write a Review</button>
+                </div>
+            </div>
+            <div class="reviews__grid">
+                <div class="reviews-card">
+                    <div class="reviews-card__top">
+                        <img class="reviews-card__rating" src="../img/estimation4.5.svg" alt="Оценка 4.5">
+                        <img class="reviews-card__menu" src="../img/three dots.svg">
+                    </div>
+                    <div class="reviews-card__author">
+                        <h5>Samantha D.</h5>
+                        <img src="../img/check mark.svg">
+                    </div>
+                    <p class="reviews-card__text">"I absolutely love this t-shirt! The design is unique and the
+                        fabric feels so <br>
+                        comfortable. As a fellow designer, I appreciate the attention to detail. It's <br>
+                        become my favorite go-to shirt." <br>
+                    </p>
+                    <p class="reviews-card__date">Posted on August 14, 2023</p>
+                </div>
+                <div class="reviews-card">
+                    <div class="reviews-card__top">
+                        <img class="reviews-card__rating" src="../img/estimation4.svg" alt="Оценка 4.0">
+                        <img class="reviews-card__menu" src="../img/three dots.svg">
+                    </div>
+                    <div class="reviews-card__author">
+                        <h5>Alex M.</h5>
+                        <img src="../img/check mark.svg">
+                    </div>
+                    <p class="reviews-card__text">
+                        "The t-shirt exceeded my expectations! The colors are vibrant and the print <br>
+                        quality is top-notch. Being a UI/UX designer myself, I'm quite picky about <br>
+                        aesthetics, and this t-shirt definitely gets a thumbs up from me." <br>
+                    </p>
+                    <p class="reviews-card__date">Posted on August 15, 2023</p>
+                </div>
+            </div>
+            <div class="reviews__grid">
+                <div class="reviews-card">
+                    <div class="review-card__top">
+                        <img class="reviews-card__rating" src="../img/estimation3.5.svg" alt="Оценка 3.5">
+                        <img class="reviews-card__menu" src="../img/three dots.svg">
+                    </div>
+                    <div class="reviews-card__author">
+                        <h5>Ethan R.</h5>
+                        <img src="../img/check mark.svg">
+                    </div>
+                    <p class="reviews-card__text">
+                        "This t-shirt is a must-have for anyone who appreciates good design. The <br>
+                        minimalistic yet stylish pattern caught my eye, and the fit is perfect. I can <br>
+                        see the designer's touch in every aspect of this shirt." <br>
+                    </p>
+                    <p class="reviews-card__date">Posted on August 16, 2023</p>
+                </div>
+                <div class="reviews-card">
+                    <div class="review-card__top">
+                        <img class="reviews-card__rating" src="../img/estimation4.svg" alt="Оценка 4.0">
+                        <img class="reviews-card__menu" src="../img/three dots.svg">
+                    </div>
+                    <div class="reviews-card__author">
+                        <h5>Olivia P.</h5>
+                        <img src="../img/check mark.svg">
+                    </div>
+                    <p class="reviews-card__text">
+                        "As a UI/UX enthusiast, I value simplicity and functionality. This t-shirt not <br>
+                        only represents those principles but also feels great to wear. It's evident <br>
+                        that the designer poured their creativity into making this t-shirt stand out." <br>
+                    </p>
+                    <p class="reviews-card__date">Posted on August 17, 2023</p>
+                </div>
+            </div>
+            <div class="reviews__grid">
+                <div class="reviews-card">
+                    <div class="reviews-card__top">
+                        <img class="reviews-card__rating" src="../img/estimation4.svg" alt="Оценка 4.0">
+                        <img class="reviews-card__menu" src="../img/three dots.svg">
+                    </div>
+                    <div class="reviews-card__author">
+                        <h5>Liam K.</h5>
+                        <img src="../img/check mark.svg">
+                    </div>
+                    <p class="reviews-card__text">
+                        "This t-shirt is a must-have for anyone who appreciates good design. The <br>
+                        minimalistic yet stylish pattern caught my eye, and the fit is perfect. I can <br>
+                        see the designer's touch in every aspect of this shirt." <br>
+                    </p>
+                    <p class="reviews-card__date">Posted on August 18, 2023</p>
+                </div>
+                <div class="reviews-card">
+                    <div class="reviews-card__top">
+                        <img class="reviews-card__rating" src="../img/estimation4.5.svg" alt="Оценка 4.5">
+                        <img class="reviews-card__menu" src="../img/three dots.svg">
+                    </div>
+                    <div class="reviews-card__author">
+                        <h5>Ava H.</h5>
+                        <img src="../img/check mark.svg">
+                    </div>
+                    <p class="reviews-card__text">
+                        "I'm not just wearing a t-shirt; I'm wearing a piece of design philosophy. <br>
+                        The intricate details and thoughtful layout of the design make this shirt a <br>
+                        conversation starter." <br>
+                    </p>
+                    <p class="reviews-card__date">Posted on August 19, 2023</p>
+                </div>
+            </div>
+            <div class="reviews__more">
+                <button class="reviews__more-button">Load More Reviews</button>
+            </div>
+        </section>
+        <section class="product-card">
+            <h3 class="product-card__heading">YOU MIGHT ALSO LIKE</h3>
+            <div class="product-card__list" id="related-products-list" aria-live="polite"></div>
+            <p class="product-card__message" id="related-products-message" role="status" hidden></p>
+          </section>
+        <footer class="footer">
+            <div class="footer__tablet">
+                <h5>STAY UPTO DATE ABOUT <br>
+                    OUR LATEST OFFERS</h5>
+                <div class="footer__form">
+                    <img class="footer__letter" src="../img/letter.svg">
+                    <input class="footer__email" type="text" name="email" placeholder="Enter your email address">
+                    <a href=""><button class="footer__Subscribe">Subscribe to Newsletter</button></a>
+                </div>
+            </div>
+            <div class="footer__container">
+                <div class="footer__container-information">
+                    <div class="footer__information">
+                        <div class="footer__information-text">
+                            <img src="../img/SHOP.CO.svg" alt="SHOP.CO">
+                            <p>We have clothes that suits your style and <br>
+                                which you’re proud to wear. From <br>
+                                women to men.</p>
+                        </div>
+                        <div class="footer__container-icons">
+                            <img src="../img/twitter.svg" alt="twitter">
+                            <img src="../img/facebook.svg" alt="facebook">
+                            <img src="../img/instagram.svg" alt="instagram">
+                            <img src="../img/GitHub.svg" alt="GitHub">
+                        </div>
+                    </div>
+                    <div class="footer__information">
+                        <h6>Company</h6>
+                        <ul>
+                            <li>About</li>
+                            <li>Features</li>
+                            <li>Works</li>
+                            <li>Career</li>
+                        </ul>
+                    </div>
+                    <div class="footer__information">
+                        <h6>Help</h6>
+                        <ul>
+                            <li>Customer Support</li>
+                            <li>Delivery Details</li>
+                            <li>Terms & Conditions</li>
+                            <li>Privacy Policy</li>
+                        </ul>
+                    </div>
+                    <div class="footer__information">
+                        <h6>FAQ</h6>
+                        <ul>
+                            <li>Account</li>
+                            <li>Manage Deliveries</li>
+                            <li>Orders</li>
+                            <li>Payments</li>
+                        </ul>
+                    </div>
+                    <div class="footer__information">
+                        <h6>Resources</h6>
+                        <ul>
+                            <li>Free eBooks</li>
+                            <li>Development Tutorial</li>
+                            <li>How to - Blog</li>
+                            <li>Youtube Playlist</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr class="footer__line">
+                <div class="footer__end">
+                    <p>Shop.co © 2000-2023, All Rights Reserved</p>
+                    <div class="footer__payment">
+                        <img src="../img/visa.svg" alt="visa">
+                        <img src="../img/Mastercard.svg" alt="Mastercard">
+                        <img src="../img/PayPal.svg" alt="PayPal">
+                        <img src="../img/aplPay.svg" alt="aplPay">
+                        <img src="../img/googlePay.svg" alt="googlePay">
+                    </div>
+                </div>
+            </div>
+        </footer>
+</body>
+
+</html>
